@@ -3,21 +3,80 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Golos Text;
-  z-index: 999px;
+  margin: 0 auto;
+}
+
+body {
 }
 
 .container {
   max-width: 1440px;
   width: 100%;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(244, 245, 248, 1);
+  z-index: 999px;
+  border-left: 2px solid rgba(244, 245, 248, 1);
+  border-right: 2px solid rgba(244, 245, 248, 1);
 }
 
 .logo {
+  padding: 12px;
+}
+
+.header-left-links {
   display: flex;
+  gap: 80px;
+}
+
+.top-contact {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.email {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.email:hover {
+  color: black;
+}
+
+.phone {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.phone:hover {
+  color: black;
+}
+
+.delivery {
+  display: flex;
+  gap: 32px;
+}
+
+.delivery-payment {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.delivery-payment:hover {
+  color: black;
+}
+
+.guarantee {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.guarantee:hover {
+  color: black;
 }
