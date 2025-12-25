@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Golos Text;
+  z-index: 999px;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
