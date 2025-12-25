@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Golos Text;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+/* HEADER SECTION */
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 999px;
+  border-left: 2px solid rgba(244, 245, 248, 1);
+  border-right: 2px solid rgba(244, 245, 248, 1);
+}
+
+.logo {
+  padding: 12px;
+}
+
+.header-left-links {
+  display: flex;
+  gap: 80px;
+}
+
+.top-contact {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.email {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.email:hover {
+  color: black;
+}
+
+.phone {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.phone:hover {
+  color: black;
+}
+
+.delivery {
+  display: flex;
+  gap: 32px;
+}
+
+.delivery-payment {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.delivery-payment:hover {
+  color: black;
+}
+
+.guarantee {
+  text-decoration-line: none;
+  color: rgba(117, 117, 117, 1);
+}
+
+.guarantee:hover {
+  color: black;
+}
+
+/* NAV SECTION */
+.nav-container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 28px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 2px solid rgba(244, 245, 248, 1);
+  border-right: 2px solid rgba(244, 245, 248, 1);
+}
+
+.nav-catalogs {
+  display: flex;
+  gap: 8px;
+}
+
+.card {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.card:hover {
+  color: white;
+  background-color: rgba(117, 117, 117, 1);
+}
+
+.products {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.products:hover {
+  color: white;
+  background-color: rgba(117, 117, 117, 1);
+}
+
+.about {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.about:hover {
+  color: white;
+  background-color: rgba(117, 117, 117, 1);
+}
+
+.connect {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.connect:hover {
+  color: white;
+  background-color: rgba(117, 117, 117, 1);
+}
+
+/* NAV-LEFT-BTNS */
+.nav-shop {
+  display: flex;
+  gap: 8px;
+}
+
+.search {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.search:hover {
+  background-color: rgba(117, 117, 117, 1);
+}
+
+.shop {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(244, 245, 248, 1);
+}
+
+.shop:hover {
+  background-color: rgba(117, 117, 117, 1);
+}
+
+.ask {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+
+.ask:hover {
+  background-color: rgba(117, 117, 117, 1);
+}
+
+/* MAIN */
+.main {
+  margin: 0 auto;
+}
+/* PRODUCT-WRAPPER */
+.product-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding: 16px 40px;
+  border-left: 2px solid rgba(244, 245, 248, 1);
+  border-right: 2px solid rgba(244, 245, 248, 1);
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  background: #1f2328;
+  border-radius: 18px;
+  padding: 16px 40px;
+  color: #fff;
+}
+
+.product-left {
+  width: 50%;
+}
+
+.product-title {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.product-info {
+  margin-bottom: 30px;
+}
+
+.product-info .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 15px;
+  color: #cfd3d7;
+}
+
+.product-price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.product-btn {
+  padding: 12px 26px;
+  border-radius: 8px;
+  border: none;
+  background: #ffffff;
+  color: #000;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.product-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.product-right {
+  width: 45%;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-right img {
+  max-width: 100%;
+  height: auto;
+}
