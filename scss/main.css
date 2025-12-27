@@ -11,14 +11,14 @@ body {
 .container {
   max-width: 1440px;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 40px;
   margin: 0 auto;
   background-color: rgb(244, 245, 248);
 }
 
 .header-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   z-index: 999;
   border-left: 2px solid rgb(244, 245, 248);
@@ -27,6 +27,9 @@ body {
 
 .logo {
   padding: 12px;
+}
+.logo:hover {
+  background-color: rgb(244, 245, 248);
 }
 
 .header-left-links {
@@ -46,6 +49,7 @@ body {
 }
 .email:hover {
   color: black;
+  background-color: rgb(244, 245, 248);
 }
 
 .phone {
@@ -54,6 +58,7 @@ body {
 }
 .phone:hover {
   color: black;
+  background-color: rgb(244, 245, 248);
 }
 
 .delivery {
@@ -67,6 +72,7 @@ body {
 }
 .delivery-payment:hover {
   color: black;
+  background-color: rgb(244, 245, 248);
 }
 
 .guarantee {
@@ -75,12 +81,13 @@ body {
 }
 .guarantee:hover {
   color: black;
+  background-color: rgb(244, 245, 248);
 }
 
 .nav-container {
   max-width: 1440px;
   width: 100%;
-  padding: 28px 20px;
+  padding: 28px 40px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -94,16 +101,18 @@ body {
   gap: 8px;
 }
 
-.main {
-  margin: 0 auto;
-}
-
-.product-wrapper {
+.main-container {
   max-width: 1440px;
   width: 100%;
   padding: 16px 40px;
+  margin: 0 auto;
   border-left: 2px solid rgb(244, 245, 248);
   border-right: 2px solid rgb(244, 245, 248);
+}
+
+.processing {
+  padding: 60px 40px;
+  margin: 0 auto;
 }
 
 .card {
@@ -111,6 +120,7 @@ body {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
+  transition: 0.3s ease-in-out;
 }
 .card:hover {
   color: white;
@@ -122,6 +132,7 @@ body {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
+  transition: 0.3s ease-in-out;
 }
 .products:hover {
   color: white;
@@ -133,6 +144,7 @@ body {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
+  transition: 0.3s ease-in-out;
 }
 .about:hover {
   color: white;
@@ -144,6 +156,7 @@ body {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
+  transition: 0.3s ease-in-out;
 }
 .connect:hover {
   color: white;
@@ -155,6 +168,7 @@ body {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
+  transition: 0.3s ease-in-out;
 }
 .search:hover {
   background-color: rgb(117, 117, 117);
@@ -165,6 +179,7 @@ body {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
+  transition: 0.3s ease-in-out;
 }
 .shop:hover {
   background-color: rgb(117, 117, 117);
@@ -176,6 +191,7 @@ body {
   border-radius: 8px;
   background-color: black;
   color: white;
+  transition: 0.3s ease-in-out;
 }
 .ask:hover {
   background-color: rgb(117, 117, 117);
@@ -189,7 +205,7 @@ body {
   color: black;
   font-size: 15px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.5 ease-in-out;
 }
 .product-btn:hover {
   background: black;
@@ -206,7 +222,8 @@ body {
   justify-content: space-between;
   background: #1f2328;
   border-radius: 18px;
-  padding: 16px 40px;
+  padding: 24px 40px;
+  padding-bottom: 24px;
   color: white;
 }
 
@@ -248,7 +265,37 @@ body {
 }
 .product-right img {
   max-width: 100%;
-  height: auto;
+  height: 300px;
 }
 
-/*# sourceMappingURL=main.css.map */
+.processing-intro {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.processing-info {
+  font-size: 20px;
+  color: rgb(117, 117, 117);
+  padding-bottom: 60px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.boxes a {
+  text-decoration-line: none;
+  color: black;
+  background-color: rgb(244, 245, 248);
+  padding: 24px;
+  border-radius: 8px;
+  transition: background-color 0.8s ease-in-out;
+}
+.boxes a:hover {
+  outline: 3px solid rgb(117, 117, 117);
+}
+.boxes a h3 {
+  padding: 16px;
+}/*# sourceMappingURL=main.css.map */

@@ -3,7 +3,8 @@
   justify-content: space-between;
   background: $color-product-bg;
   border-radius: 18px;
-  padding: 16px 40px;
+  padding: 24px 40px;
+  padding-bottom: 24px;
   color: $color-white;
 }
 .product-left {
@@ -39,6 +40,6 @@
   justify-content: center;
   img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
   }
 }

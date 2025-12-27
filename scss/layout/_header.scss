@@ -7,7 +7,7 @@
 }
 .header-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   z-index: 999;
   border-left: $border-side;
@@ -15,11 +15,15 @@
 }
 .logo {
   padding: 12px;
+  &:hover {
+    background-color: $color-background;
+  }
 }
 .header-left-links {
   display: flex;
   gap: 80px;
 }
+
 .top-contact {
   display: flex;
   gap: 32px;
@@ -30,6 +34,7 @@
   color: $color-text-gray;
   &:hover {
     color: $color-black;
+    background-color: $color-background;
   }
 }
 .phone {
@@ -37,6 +42,7 @@
   color: $color-text-gray;
   &:hover {
     color: $color-black;
+    background-color: $color-background;
   }
 }
 .delivery {
@@ -48,6 +54,7 @@
   color: $color-text-gray;
   &:hover {
     color: $color-black;
+    background-color: $color-background;
   }
 }
 .guarantee {
@@ -55,5 +62,6 @@
   color: $color-text-gray;
   &:hover {
     color: $color-black;
+    background-color: $color-background;
   }
 }
