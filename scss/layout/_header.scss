@@ -1,0 +1,59 @@
+.container {
+  max-width: $max-width;
+  width: 100%;
+  padding: $padding-container;
+  margin: 0 auto;
+  background-color: $color-background;
+}
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 999;
+  border-left: $border-side;
+  border-right: $border-side;
+}
+.logo {
+  padding: 12px;
+}
+.header-left-links {
+  display: flex;
+  gap: 80px;
+}
+.top-contact {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.email {
+  text-decoration-line: none;
+  color: $color-text-gray;
+  &:hover {
+    color: $color-black;
+  }
+}
+.phone {
+  text-decoration-line: none;
+  color: $color-text-gray;
+  &:hover {
+    color: $color-black;
+  }
+}
+.delivery {
+  display: flex;
+  gap: 32px;
+}
+.delivery-payment {
+  text-decoration-line: none;
+  color: $color-text-gray;
+  &:hover {
+    color: $color-black;
+  }
+}
+.guarantee {
+  text-decoration-line: none;
+  color: $color-text-gray;
+  &:hover {
+    color: $color-black;
+  }
+}

@@ -1,0 +1,26 @@
+.nav-container {
+  max-width: $max-width;
+  width: 100%;
+  padding: 28px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: $border-side;
+  border-right: $border-side;
+}
+.nav-catalogs {
+  display: flex;
+  gap: 8px;
+}
+// layout/_main.scss
+.main {
+  margin: 0 auto;
+}
+.product-wrapper {
+  max-width: $max-width;
+  width: 100%;
+  padding: 16px 40px;
+  border-left: $border-side;
+  border-right: $border-side;
+}

@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Golos Text";
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: rgb(244, 245, 248);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 999;
+  border-left: 2px solid rgb(244, 245, 248);
+  border-right: 2px solid rgb(244, 245, 248);
+}
+
+.logo {
+  padding: 12px;
+}
+
+.header-left-links {
+  display: flex;
+  gap: 80px;
+}
+
+.top-contact {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.email {
+  text-decoration-line: none;
+  color: rgb(117, 117, 117);
+}
+.email:hover {
+  color: black;
+}
+
+.phone {
+  text-decoration-line: none;
+  color: rgb(117, 117, 117);
+}
+.phone:hover {
+  color: black;
+}
+
+.delivery {
+  display: flex;
+  gap: 32px;
+}
+
+.delivery-payment {
+  text-decoration-line: none;
+  color: rgb(117, 117, 117);
+}
+.delivery-payment:hover {
+  color: black;
+}
+
+.guarantee {
+  text-decoration-line: none;
+  color: rgb(117, 117, 117);
+}
+.guarantee:hover {
+  color: black;
+}
+
+.nav-container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 28px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 2px solid rgb(244, 245, 248);
+  border-right: 2px solid rgb(244, 245, 248);
+}
+
+.nav-catalogs {
+  display: flex;
+  gap: 8px;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.product-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding: 16px 40px;
+  border-left: 2px solid rgb(244, 245, 248);
+  border-right: 2px solid rgb(244, 245, 248);
+}
+
+.card {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(244, 245, 248);
+}
+.card:hover {
+  color: white;
+  background-color: rgb(117, 117, 117);
+}
+
+.products {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(244, 245, 248);
+}
+.products:hover {
+  color: white;
+  background-color: rgb(117, 117, 117);
+}
+
+.about {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(244, 245, 248);
+}
+.about:hover {
+  color: white;
+  background-color: rgb(117, 117, 117);
+}
+
+.connect {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(244, 245, 248);
+}
+.connect:hover {
+  color: white;
+  background-color: rgb(117, 117, 117);
+}
+
+.search {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(244, 245, 248);
+}
+.search:hover {
+  background-color: rgb(117, 117, 117);
+}
+
+.shop {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(244, 245, 248);
+}
+.shop:hover {
+  background-color: rgb(117, 117, 117);
+}
+
+.ask {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+.ask:hover {
+  background-color: rgb(117, 117, 117);
+}
+
+.product-btn {
+  padding: 12px 26px;
+  border-radius: 8px;
+  border: none;
+  background: white;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.product-btn:hover {
+  background: black;
+  color: white;
+}
+
+.nav-shop {
+  display: flex;
+  gap: 8px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  background: #1f2328;
+  border-radius: 18px;
+  padding: 16px 40px;
+  color: white;
+}
+
+.product-left {
+  width: 50%;
+}
+
+.product-title {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.product-info {
+  margin-bottom: 30px;
+}
+.product-info .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 15px;
+  color: #cfd3d7;
+}
+
+.product-price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.product-right {
+  width: 45%;
+  background: white;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
