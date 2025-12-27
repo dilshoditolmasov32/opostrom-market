@@ -1,0 +1,26 @@
+.footer {
+  color: red;
+}
+
+.home {
+  background-color: greeen;
+  color: red;
+}
+.home .user-section {
+  font-size: 22px;
+}
+.home .user-section .product-card {
+  color: black;
+}
+.home .user-section .product-card .product-left {
+  color: #010212;
+}
+.home .user-section .product-card .product-right {
+  background: #010212;
+}
+
+button {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

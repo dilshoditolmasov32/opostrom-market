@@ -1,32 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OKOPROM</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/logo-short.svg" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>okompron</title>
 </head>
+
 <body>
 
     <header>
-        <section>
-           <h2> HEADER SECTION CODES</h2>
-        </section>
+        <div class="container">
+            <div class="header-container">
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo.svg" alt="logo" class="logo-img">
+                </a>
+
+                <div class="header-left-links">
+                    <div class="top-contact">
+                        <a href="mailto:okoprom@gmail.com" class="email">okoprom@gmail.com</a>
+                        <a href="tel:+78007073101" class="phone">+7 (800)
+                            707-31-01</a>
+                    </div>
+                    <div class="delivery">
+                        <a href="#" class="delivery-payment">Доставка и
+                            оплата</a>
+                        <a href="#" class="guarantee">Гарантия</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <section class="nav-container">
+                <div class="nav-catalogs">
+                    <button class="card">Каталог</button>
+                    <button class="products">Наше производство</button>
+                    <button class="about">О компании</button>
+                    <button class="connect">Контакты</button>
+                </div>
+
+                <div class="nav-shop">
+                    <button class="search">
+                        <img src="./images/Search.svg" alt>
+                    </button>
+                    <button class="shop">
+                        <img src="./images/shop.svg" alt>
+                    </button>
+                    <button class="ask">Запросить консультацию</button>
+                </div>
+            </section>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <h1>
-                MAIN SECTION CODES
-            </h1>
-        </section>
-    </main>
+        <div class="main-container">
+            <div class="product-wrapper">
+                <div class="product-card">
 
-    <footer>
-        <section>
-            <h2>
-                FOOTER SECTION CODES
-            </h2>
-        </section>
-    </footer>
-</body>
+                    <div class="product-left">
+                        <h1 class="product-title">
+                            Новый зверь<br>
+                            для всех типов кабелей
+                        </h1>
+
+                        <div class="product-info">
+                            <div class="row">
+                                <span>Диаметр обработки</span>
+                                <span>от 1,5 до 130мм</span>
+                            </div>
+                            <div class="row">
+                                <span>Размеры</span>
+                                <span>90×68×120 см</span>
+                            </div>
+                            <div class="row">
+                                <span>Мощность</span>
+                                <span>3 кВт 380 В</span>
+                            </div>
+                        </div>
+
+                        <div class="product-price">209 000 ₽</div>
+
+                        <button class="product-btn">Подробнее</button>
+                    </div>
+                    <div class="product-right">
+                            <img src="./images/product-wrapper.svg"
+                                alt="Machine">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            hello
+        </footer>
+    </body>
 </html>

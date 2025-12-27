@@ -1,0 +1,20 @@
+$color:#010212;
+
+.home{
+    background-color: greeen;
+    color:red;
+
+    .user-section{
+        font-size: 22px;
+
+        .product-card{
+            color: black;
+            .product-left{
+                color:$color
+            }
+            .product-right{
+                background: $color;
+            }
+        }
+    }
+}

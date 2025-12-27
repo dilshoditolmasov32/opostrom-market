@@ -49,10 +49,7 @@
   color: black;
 }
 
-.phone {
-  text-decoration-line: none;
-  color: rgba(117, 117, 117, 1);
-}
+
 
 .phone:hover {
   color: black;
