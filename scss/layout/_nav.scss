@@ -8,7 +8,9 @@
   justify-content: space-between;
   border-left: $border-side;
   border-right: $border-side;
+  background-color: $color-white;
 }
+
 .nav-catalogs {
   display: flex;
   gap: 8px;

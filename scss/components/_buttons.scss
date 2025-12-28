@@ -87,3 +87,27 @@
     color: $color-white;
   }
 }
+
+// Main
+.sponsors {
+  max-width: 1360px;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $gap;
+  align-items: center;
+  justify-content: center;
+  a {
+    background-color: $color-background;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    padding: 25px;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    }
+  }
+}
