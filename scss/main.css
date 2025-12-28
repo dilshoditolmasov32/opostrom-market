@@ -149,7 +149,7 @@ header {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease;
 }
 .products:hover {
   color: white;
@@ -161,7 +161,7 @@ header {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease;
 }
 .about:hover {
   color: white;
@@ -173,7 +173,7 @@ header {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease;
 }
 .connect:hover {
   color: white;
@@ -185,7 +185,7 @@ header {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease;
 }
 .search:hover {
   background-color: rgb(117, 117, 117);
@@ -196,7 +196,7 @@ header {
   border: none;
   border-radius: 8px;
   background-color: rgb(244, 245, 248);
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease;
 }
 .shop:hover {
   background-color: rgb(117, 117, 117);
@@ -208,7 +208,7 @@ header {
   border-radius: 8px;
   background-color: black;
   color: white;
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease;
 }
 .ask:hover {
   background-color: rgb(117, 117, 117);
@@ -222,7 +222,7 @@ header {
   color: black;
   font-size: 15px;
   cursor: pointer;
-  transition: 0.5 ease-in-out;
+  transition: 0.5s ease;
 }
 .product-btn:hover {
   background: black;
@@ -260,7 +260,7 @@ header {
 .product-card {
   display: flex;
   justify-content: space-between;
-  background: #1f2328;
+  background: rgb(31, 35, 40);
   border-radius: 18px;
   padding: 24px 40px;
   padding-bottom: 24px;
@@ -331,7 +331,7 @@ header {
   background-color: rgb(244, 245, 248);
   padding: 24px;
   border-radius: 8px;
-  transition: background-color 0.8s ease-in-out;
+  transition: 0.5s ease;
 }
 .boxes a:hover {
   outline: 3px solid rgb(117, 117, 117);
@@ -361,7 +361,7 @@ h1 {
   padding: 24px;
   min-height: 100px;
   border-radius: 8px;
-  transition: all 0.5s ease;
+  transition: 0.5s ease;
   max-width: 400px;
   width: 100%;
   flex-shrink: 0;
@@ -408,4 +408,205 @@ h1 {
 .info h4 {
   font-size: 16px;
   padding: 40px;
+}
+
+.feedback {
+  background-color: rgb(31, 35, 40);
+  padding: 80px 40px;
+  border-radius: 20px;
+  margin-top: 120px;
+  font-family: sans-serif;
+  padding-bottom: 120px;
+}
+.feedback__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+.feedback__info {
+  flex: 1;
+}
+.feedback__info .feedback__title {
+  color: white;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 24px;
+  max-width: 450px;
+}
+.feedback__info .feedback__subtitle {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.feedback__form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+}
+.feedback__form .form-group {
+  width: 100%;
+}
+.feedback__form .form-group .form-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 12px 0;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.5s ease;
+}
+.feedback__form .form-group .form-input::-moz-placeholder {
+  color: rgb(117, 117, 117);
+}
+.feedback__form .form-group .form-input::placeholder {
+  color: rgb(117, 117, 117);
+}
+.feedback__form .form-group .form-input:focus {
+  border-bottom-color: white;
+  transform: translateY(-2px);
+}
+.feedback__form .btn-submit {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: white;
+  color: #000;
+  border: none;
+  padding: 14px 45px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.5s ease;
+}
+.feedback__form .btn-submit:hover {
+  background-color: rgb(244, 245, 248);
+  transform: scale(1.05);
+}
+.feedback__form .btn-submit:active {
+  transform: scale(0.98);
+}
+
+.footer {
+  margin-top: 120px;
+  max-width: 1440px;
+  width: 100%;
+  padding: 16px 40px;
+  margin: 0 auto;
+  border-left: 2px solid rgb(244, 245, 248);
+  border-right: 2px solid rgb(244, 245, 248);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-bottom: 40px;
+  padding-top: 120px;
+}
+.footer-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+.footer-text {
+  color: rgb(31, 35, 40);
+  line-height: 1.5;
+  max-width: 320px;
+  margin: 0;
+}
+.footer-phone {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(31, 35, 40);
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.footer-email {
+  color: rgb(31, 35, 40);
+  text-decoration: none;
+}
+.footer-social-btns {
+  display: flex;
+  gap: 10px;
+}
+.footer-social-btns .btn-dark {
+  background: rgb(31, 35, 40);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-social-btns .btn-dark:hover {
+  background-color: rgb(117, 117, 117);
+}
+.footer-nav {
+  flex: 1.5;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.footer-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+.footer-list li {
+  margin-bottom: 12px;
+}
+.footer-list li a {
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-list li a:hover {
+  color: rgb(31, 35, 40);
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(117, 117, 117);
+  font-size: 13px;
+}
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-social-icons .social-text {
+  margin-left: 10px;
+}
+.footer-copy {
+  display: flex;
+  gap: 30px;
+}
+.footer-copy .policy {
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+}
+.footer-copy .policy:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
