@@ -28,6 +28,7 @@ body {
 .logo {
   padding: 12px;
 }
+
 .logo:hover {
   background-color: rgb(244, 245, 248);
 }
@@ -47,6 +48,7 @@ body {
   text-decoration-line: none;
   color: rgb(117, 117, 117);
 }
+
 .email:hover {
   color: black;
   background-color: rgb(244, 245, 248);
@@ -56,6 +58,7 @@ body {
   text-decoration-line: none;
   color: rgb(117, 117, 117);
 }
+
 .phone:hover {
   color: black;
   background-color: rgb(244, 245, 248);
@@ -70,6 +73,7 @@ body {
   text-decoration-line: none;
   color: rgb(117, 117, 117);
 }
+
 .delivery-payment:hover {
   color: black;
   background-color: rgb(244, 245, 248);
@@ -79,6 +83,7 @@ body {
   text-decoration-line: none;
   color: rgb(117, 117, 117);
 }
+
 .guarantee:hover {
   color: black;
   background-color: rgb(244, 245, 248);
@@ -125,6 +130,7 @@ body {
   background-color: rgb(244, 245, 248);
   transition: 0.3s ease-in-out;
 }
+
 .card:hover {
   color: white;
   background-color: rgb(117, 117, 117);
@@ -137,6 +143,7 @@ body {
   background-color: rgb(244, 245, 248);
   transition: 0.3s ease-in-out;
 }
+
 .products:hover {
   color: white;
   background-color: rgb(117, 117, 117);
@@ -149,6 +156,7 @@ body {
   background-color: rgb(244, 245, 248);
   transition: 0.3s ease-in-out;
 }
+
 .about:hover {
   color: white;
   background-color: rgb(117, 117, 117);
@@ -161,6 +169,7 @@ body {
   background-color: rgb(244, 245, 248);
   transition: 0.3s ease-in-out;
 }
+
 .connect:hover {
   color: white;
   background-color: rgb(117, 117, 117);
@@ -173,6 +182,7 @@ body {
   background-color: rgb(244, 245, 248);
   transition: 0.3s ease-in-out;
 }
+
 .search:hover {
   background-color: rgb(117, 117, 117);
 }
@@ -184,6 +194,7 @@ body {
   background-color: rgb(244, 245, 248);
   transition: 0.3s ease-in-out;
 }
+
 .shop:hover {
   background-color: rgb(117, 117, 117);
 }
@@ -196,6 +207,7 @@ body {
   color: white;
   transition: 0.3s ease-in-out;
 }
+
 .ask:hover {
   background-color: rgb(117, 117, 117);
 }
@@ -210,6 +222,7 @@ body {
   cursor: pointer;
   transition: 0.5 ease-in-out;
 }
+
 .product-btn:hover {
   background: black;
   color: white;
@@ -243,6 +256,7 @@ body {
 .product-info {
   margin-bottom: 30px;
 }
+
 .product-info .row {
   display: flex;
   justify-content: space-between;
@@ -266,6 +280,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .product-right img {
   max-width: 100%;
   height: 300px;
@@ -288,6 +303,7 @@ body {
   flex-wrap: wrap;
   gap: 16px;
 }
+
 .boxes a {
   text-decoration-line: none;
   color: black;
@@ -296,9 +312,11 @@ body {
   border-radius: 8px;
   transition: background-color 0.8s ease-in-out;
 }
+
 .boxes a:hover {
   outline: 3px solid rgb(117, 117, 117);
 }
+
 .boxes a h3 {
   padding: 16px;
 }
@@ -306,51 +324,42 @@ body {
 h1 {
   font-size: 40px;
   padding-bottom: 60px;
-  line-height: 1.2;
 }
 
 .our-benefits {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
+
 .our-benefits a {
   display: flex;
-  align-items: flex-start;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: black;
   background-color: rgb(244, 245, 248);
-  padding: 24px;
-  min-height: 100px;
+  padding: 16px 20px;
+  height: 92px;
+  width: 292px;
   border-radius: 8px;
-  transition: all 0.3s ease;
 }
+
 .our-benefits a div {
-  display: flex;
   flex-direction: column;
+  display: flex;
   gap: 8px;
-  text-align: left;
 }
+
 .our-benefits a img {
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
 }
-.our-benefits a h4 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 600;
-}
-.our-benefits a h6 {
-  margin: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.4;
-  color: rgb(117, 117, 117);
-}
+
 .our-benefits a:hover {
-  background-color: #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  outline: 1px solid #e0e0e0;
-}/*# sourceMappingURL=main.css.map */
+  background-color: white;
+  outline: 1px solid rgb(117, 117, 117);
+} 
+
+/*# sourceMappingURL=main.css.map */
