@@ -4,17 +4,21 @@
   border-radius: 8px;
   background-color: $color-background;
   transition: 0.3s ease-in-out;
+  text-decoration-line: none;
+  color: $color-black;
   &:hover {
     color: $color-white;
     background-color: $color-text-gray;
   }
 }
-.products {
+.product {
   padding: 12px 20px;
   border: none;
   border-radius: 8px;
   background-color: $color-background;
   transition: $transition;
+  text-decoration-line: none;
+  color: $color-black;
   &:hover {
     color: $color-white;
     background-color: $color-text-gray;
@@ -26,6 +30,8 @@
   border-radius: 8px;
   background-color: $color-background;
   transition: $transition;
+  text-decoration-line: none;
+  color: $color-black;
   &:hover {
     color: $color-white;
     background-color: $color-text-gray;
@@ -37,6 +43,8 @@
   border-radius: 8px;
   background-color: $color-background;
   transition: $transition;
+  text-decoration-line: none;
+  color: $color-black;
   &:hover {
     color: $color-white;
     background-color: $color-text-gray;
@@ -108,6 +116,31 @@
     &:hover {
       transform: translateY(-5px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+
+.hamburger-menu {
+  width: 276px;
+  border: 1px solid $color-product-text-light;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: $color-black;
+    border-bottom: 1px solid $color-product-text-light;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &.menu {
+      background-color: #2d2d2d;
+      color: #fff;
+      border-radius: 8px;
     }
   }
 }
