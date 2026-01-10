@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -133,7 +134,7 @@ header {
   gap: 16px;
 }
 
-.all-products {
+.products {
   margin-top: 60px;
 }
 
@@ -147,8 +148,7 @@ header {
   color: black;
 }
 .card:hover {
-  color: white;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
 }
 
 .product {
@@ -161,8 +161,7 @@ header {
   color: black;
 }
 .product:hover {
-  color: white;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
 }
 
 .about {
@@ -175,8 +174,7 @@ header {
   color: black;
 }
 .about:hover {
-  color: white;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
 }
 
 .connect {
@@ -189,8 +187,7 @@ header {
   color: black;
 }
 .connect:hover {
-  color: white;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
 }
 
 .search {
@@ -201,7 +198,7 @@ header {
   transition: 0.5s ease;
 }
 .search:hover {
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
 }
 
 .shop {
@@ -212,7 +209,7 @@ header {
   transition: 0.5s ease;
 }
 .shop:hover {
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
 }
 
 .ask {
@@ -222,9 +219,12 @@ header {
   background-color: black;
   color: white;
   transition: 0.5s ease;
+  text-decoration-line: none;
+  color: white;
 }
 .ask:hover {
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
+  color: black;
 }
 
 .product-btn {
@@ -265,23 +265,24 @@ header {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
 
-.hamburger-menu {
-  width: 276px;
+.hamburger__menu {
   border: 1px solid rgb(207, 211, 215);
+  width: 276px;
   display: flex;
   flex-direction: column;
   gap: 8px;
+  border-radius: 8px;
 }
-.hamburger-menu a {
+.hamburger__menu a {
   padding: 12px 20px;
   text-decoration: none;
   color: black;
   border-bottom: 1px solid rgb(207, 211, 215);
 }
-.hamburger-menu a:last-child {
+.hamburger__menu a:last-child {
   border-bottom: none;
 }
-.hamburger-menu a.menu {
+.hamburger__menu a.menu {
   background-color: #2d2d2d;
   color: #fff;
   border-radius: 8px;
@@ -290,6 +291,83 @@ header {
 .nav-shop {
   display: flex;
   gap: 8px;
+}
+
+.cataog-products {
+  display: flex;
+  gap: 40px;
+}
+
+.product__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  justify-content: center;
+}
+.product__cards .cards {
+  width: 300px;
+  padding: 4px;
+  background-color: rgb(244, 245, 248);
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.product__cards .cards .aвтоматический-мини {
+  padding: 20px;
+  font-size: 16px;
+}
+.product__cards .cards .about__info {
+  padding: 0 20px;
+}
+.product__cards .cards .about__info .info__img {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  font-size: 15px;
+  font-size: 14px;
+}
+.product__cards .cards .price {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  color: rgb(22, 22, 22);
+  margin-top: 30px;
+}
+.product__cards .cards .buy {
+  margin: 20px;
+  padding: 12px 95px;
+  border-radius: 8px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+.product__cards .cards .buy:hover {
+  background-color: rgb(207, 211, 215);
+  color: black;
+}
+.product__cards .cards:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.show {
+  padding: 12px 20px;
+  background-color: rgb(244, 245, 248);
+  border: none;
+  display: flex;
+  justify-items: end;
+  border-radius: 8px;
+}
+.show:hover {
+  background-color: rgb(207, 211, 215);
 }
 
 .product-card {
@@ -377,7 +455,7 @@ header {
 
 h1 {
   font-size: 40px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
   line-height: 1.2;
 }
 
@@ -448,7 +526,8 @@ h1 {
 .products-info {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: end;
+  margin-bottom: 40px;
 }
 .products-info h1 {
   font-size: 36px;
@@ -604,7 +683,8 @@ h1 {
   font-size: 14px;
 }
 .footer-social-btns .btn-dark:hover {
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(207, 211, 215);
+  color: black;
 }
 .footer-nav {
   flex: 1.5;

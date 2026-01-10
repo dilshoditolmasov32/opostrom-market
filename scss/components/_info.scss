@@ -21,8 +21,8 @@ $padding: 40px;
 .products-info {
   display: flex;
   gap: 20px;
-  align-items: center;
-
+  align-items: end;
+  margin-bottom: 40px;
   h1 {
     font-size: 36px;
     color: $color-black;

@@ -7,8 +7,7 @@
   text-decoration-line: none;
   color: $color-black;
   &:hover {
-    color: $color-white;
-    background-color: $color-text-gray;
+    background-color: $color-product-text-light;
   }
 }
 .product {
@@ -20,8 +19,7 @@
   text-decoration-line: none;
   color: $color-black;
   &:hover {
-    color: $color-white;
-    background-color: $color-text-gray;
+    background-color: $color-product-text-light;
   }
 }
 .about {
@@ -33,8 +31,7 @@
   text-decoration-line: none;
   color: $color-black;
   &:hover {
-    color: $color-white;
-    background-color: $color-text-gray;
+    background-color: $color-product-text-light;
   }
 }
 .connect {
@@ -46,8 +43,7 @@
   text-decoration-line: none;
   color: $color-black;
   &:hover {
-    color: $color-white;
-    background-color: $color-text-gray;
+    background-color: $color-product-text-light;
   }
 }
 .search {
@@ -57,7 +53,7 @@
   background-color: $color-background;
   transition: $transition;
   &:hover {
-    background-color: $color-text-gray;
+    background-color: $color-product-text-light;
   }
 }
 .shop {
@@ -67,7 +63,7 @@
   background-color: $color-background;
   transition: $transition;
   &:hover {
-    background-color: $color-text-gray;
+    background-color: $color-product-text-light;
   }
 }
 .ask {
@@ -77,8 +73,11 @@
   background-color: $color-black;
   color: $color-white;
   transition: $transition;
+  text-decoration-line: none;
+  color: $color-white;
   &:hover {
-    background-color: $color-text-gray;
+    background-color: $color-product-text-light;
+    color: $color-black;
   }
 }
 .product-btn {
@@ -120,13 +119,13 @@
   }
 }
 
-.hamburger-menu {
-  width: 276px;
+.hamburger__menu {
   border: 1px solid $color-product-text-light;
+  width: 276px;
   display: flex;
   flex-direction: column;
   gap: 8px;
-
+  border-radius: 8px;
   a {
     padding: 12px 20px;
     text-decoration: none;
