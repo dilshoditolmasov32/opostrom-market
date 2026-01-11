@@ -830,6 +830,126 @@ h1 {
   color: rgb(117, 117, 117);
 }
 
+.contacts h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.contacts .contact__with__us {
+  display: flex;
+  gap: 120px;
+  justify-content: space-between;
+}
+.contacts .contact__with__us .address {
+  display: grid;
+  justify-content: space-between;
+}
+.contacts .contact__with__us .address .companys-address h4 {
+  color: rgb(117, 117, 117);
+  margin-bottom: 4px;
+}
+.contacts .contact__with__us .address .working-time h4 {
+  color: rgb(117, 117, 117);
+  margin-bottom: 4px;
+}
+.contacts .contact__with__us .address .working-time .time {
+  margin-bottom: 4px;
+}
+.contacts .contact__with__us .address .working-time .time span {
+  display: flex;
+  gap: 32px;
+}
+.contacts .contact__with__us .address .contact__email h4 {
+  color: rgb(117, 117, 117);
+  margin-bottom: 4px;
+}
+.contacts .contact__with__us .address .phone__number h4 {
+  color: rgb(117, 117, 117);
+  margin-bottom: 4px;
+}
+.contacts .contact__with__us .address .masege h4 {
+  color: rgb(117, 117, 117);
+  margin-bottom: 12px;
+}
+.contacts .contact__with__us .address .masege .masege__btn {
+  display: flex;
+  gap: 8px;
+}
+.contacts .contact__with__us .address .masege .masege__btn button {
+  padding: 12px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+.contacts .contact__with__us .address .masege .masege__btn button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transform: scale(1);
+}
+.contacts .contact__with__us .address .social-media h4 {
+  color: rgb(117, 117, 117);
+  margin-bottom: 4px;
+}
+.contacts .contact__with__us .address .social-media .social__media__btns {
+  display: flex;
+  gap: 8px;
+}
+.contacts .contact__with__us .address .social-media .social__media__btns button {
+  padding: 12px;
+  background-color: white;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 8px;
+}
+
+.legal-info {
+  margin-top: 80px;
+}
+.legal-info h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.legal-info .legal__info {
+  display: flex;
+  gap: 120px;
+  justify-content: space-between;
+}
+.legal-info .legal__info .production {
+  display: grid;
+}
+.legal-info .legal__info .production h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.legal-info .legal__info .production .production__info div {
+  margin: 4px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.legal-info .legal__info .production .production__info div .span-1 {
+  color: rgb(117, 117, 117);
+}
+.legal-info .legal__info .sells {
+  display: grid;
+}
+.legal-info .legal__info .sells h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.legal-info .legal__info .sells .sells__info div {
+  margin: 4px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.legal-info .legal__info .sells .sells__info div .span-1 {
+  color: rgb(117, 117, 117);
+}
+
 .feedback {
   background-color: rgb(31, 35, 40);
   padding: 80px 40px;
