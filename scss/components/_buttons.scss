@@ -89,6 +89,7 @@
   font-size: 15px;
   cursor: pointer;
   transition: $transition;
+  text-decoration-line: none;
   &:hover {
     background: $color-black;
     color: $color-white;
@@ -142,4 +143,61 @@
       border-radius: 8px;
     }
   }
+}
+
+.cable__stripping {
+  width: 276px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid $color-product-text-light;
+  a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid $color-product-text-light;
+
+    &.active {
+      background-color: #1f2123;
+      color: #ffffff;
+      margin: 4px 0;
+    }
+
+    &:hover:not(.active) {
+      background-color: #f5f5f5;
+    }
+  }
+}
+
+.menu,
+.discount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cable-stripping-products {
+  display: flex;
+  gap: 40px;
+}
+
+.cable__stripping__btns {
+  display: flex;
+  gap: 8px;
+  .cable__stripping__btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+  }
+}
+
+.cable__stripping__cards {
+  display: grid;
+  gap: 32px;
 }
